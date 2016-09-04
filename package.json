@@ -26,14 +26,14 @@
   "homepage": "https://github.com/NodeOS/nodeos-mount-utils",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "nodeos-mount": "^0.2.0",
+    "nodeos-mount": "^0.3.0",
     "posix": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
     "errno-codes": "^1.0.2",
     "istanbul": "^0.4.3",
-    "mocha": "^2.4.5",
+    "mocha": "^3.0.2",
     "proxyquire": "^1.7.4",
     "rimraf": "^2.5.2",
     "sinon": "^1.17.3",
