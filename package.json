@@ -29,7 +29,7 @@
     "nodeos-mount": "^0.3.1"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
+    "chai": "^4.1.1",
     "errno-codes": "^1.0.2",
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
