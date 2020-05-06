@@ -7,7 +7,9 @@
     "test": "mocha",
     "test:watch": "npm run test -- -w",
     "clean": "rm -rf coverage",
-    "coverage": "npm run clean && istanbul cover _mocha -- -R spec"
+    "coverage": "npm run clean && istanbul cover _mocha -- -R spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,7 +28,8 @@
   "homepage": "https://github.com/NodeOS/nodeos-mount-utils",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "nodeos-mount": "^0.3.1"
+    "nodeos-mount": "^0.3.1",
+    "snyk": "^1.319.0"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -37,5 +40,6 @@
     "rimraf": "^2.5.4",
     "sinon": "^1.17.6",
     "sinon-chai": "^2.8.0"
-  }
+  },
+  "snyk": true
 }
